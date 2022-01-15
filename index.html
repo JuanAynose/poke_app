@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Poke-UwU</h1>
+        <article class="card_container">
+            <section class="card">
+                <div class="bg_style-top"></div>
+                <header class="card_header">
+                    <div class="card_hp">
+                        <span class="card_hp-indicator">HP</span>
+                        <span class="card_hp-info" id="poke_hp">201</span>
+                    </div>
+                    <img src="assets/images/tetons_uwu.png"  class="card_top-img" id="poke_img">
+                </header>
+                <main class="card_main">
+                    <p class="card_main-name" id="poke_name">Gordo(marmota)</p>
+                    <p class="card_main-type" id="poke_type">Jugador de LoL</p>
+                </main>
+                <footer class="card_footer">
+                    <ul class="card_list">
+                        <li class="card_list-item">
+                            <div class="card_item-stats">
+                                <span class="card_stats-info" id="poke_attack">10</span>
+                                <p class="card_stats-name">Attack</p>
+                            </div>
+                        </li>
+                        <li class="card_list-item">
+                            <div class="card_item-stats">
+                                <span class="card_stats-info" id="poke_defense">350</span >
+                                <p class="card_stats-name">Defense</p>
+                            </div>
+                        </li>
+                        <li class="card_list-item">
+                            <div class="card_item-stats">
+                                <span class="card_stats-info" id="poke_speed">20</span>
+                                <p class="card_stats-name">Speed</p>
+                            </div>
+                        </li>
+                    </ul>
+                </footer>
+            </section>
+        </article>
+        <div class="importante">    
+            <p class="text_importante">hola buenas... los queria reuinir hoy para contarles que esta cosa es una Pokedex, para los menos adaptos que no saben que es.. es un buscador de pokemons, que al ingresarlo en la parte de abajo y apretar el boton de -buscar- aparece su pokemon deseado :D
+                <span class="pd">Quien pa lol uwu</span>
+            </p>
+        </div>
+        <form id="form_pokemon">
+            <input type="text" id="poke_input" class="poke_input" placeholder="Ingrese Poke UwU">
+            <input type="submit" for="poke_uwu" id="button" value="Buscar uwu" class="poke_send">
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
