@@ -146,6 +146,7 @@ body{
     padding: .5em 2em;
     cursor: pointer;
     box-shadow: 2px 2px 8px hsl(233, 40%, 11%);
+    margin-bottom:4em;
 }
 
 /*images style*/
